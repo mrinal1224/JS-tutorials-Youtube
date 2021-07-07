@@ -1,30 +1,9 @@
-//Number
+let firstPerson = "Adam"
+console.log(firstPerson)
 
-let a = 2;
-console.log(a ,typeof(a))
+let secondPerson = firstPerson
+console.log(secondPerson)
 
-//String
-
-let myString = "My name is Mrinal"
-
-console.log(myString,typeof(myString))
-
-//Boolean
-
-let willRain = false;
-
-console.log(willRain,typeof(willRain))
-
-//undefined
-
-let c;
-console.log(c,typeof(c))
-
-//Null
-
-let nullVariable = null;
-
-console.log(nullVariable , typeof(nullVariable))
-
-
-
+firstPerson = "Jack"
+console.log(firstPerson)
+console.log(secondPerson)
